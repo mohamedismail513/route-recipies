@@ -11,6 +11,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 import Search from "./Components/Layouts/MainLayout/MainComp/Search/Search"
 import Ing from "./Components/Layouts/MainLayout/MainComp/Ingredients/Ing"
 import MealDetail from "./Components/GeneralComp/MealDetail/MealDetail"
+import Ingredient from "./Components/GeneralComp/Ingredient/Ingredient"
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       {path:'/recipies',element:<Recipies/>},
       {path:"/search",element:<Search/>},
       {path:"/ingredients",element:<Ing/>},
+      {path:"/ingredients/:cat",element:<Ingredient/>},
       {path:"/meal/:id",element:<MealDetail/>}
     ]}
   ])
