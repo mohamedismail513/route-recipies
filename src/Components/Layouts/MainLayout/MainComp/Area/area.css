@@ -1,0 +1,48 @@
+.area-links{
+    cursor: pointer;
+}
+
+.area-links:hover{
+   transform: scale(1.2);
+   -webkit-transform: scale(1.2);
+   -moz-transform: scale(1.2);
+   -ms-transform: scale(1.2);
+   -o-transform: scale(1.2);
+}
+
+.selected{
+    background-color: rgb(94, 71, 71);
+    color: white;
+}
+
+.area-meals-container{
+    width: 70%;
+    transform: translateX(-3000px);
+    -webkit-transform: translateX(-3000px);
+    -moz-transform: translateX(-3000px);
+    -ms-transform: translateX(-3000px);
+    -o-transform: translateX(-3000px);
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+}
+
+.area-meals-container-show{
+    height: 100vh;
+    overflow-y: scroll;
+    width: 50%;
+    margin: auto;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transition: all 3.5s;
+    -webkit-transition: all 3.5s;
+    -moz-transition: all 3.5s;
+    -ms-transition: all 3.5s;
+    -o-transition: all 3.5s;
+}
+

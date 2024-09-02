@@ -1,0 +1,19 @@
+
+.cover{
+    background-color: rgba(255,255,255,0.5);
+    transform: translateY(450px);
+    transition: all 0.5s;
+    -webkit-transform: translateY(450px);
+    -moz-transform: translateY(450px);
+    -ms-transform: translateY(450px);
+    -o-transform: translateY(450px);
+}
+
+.single-container:hover .cover{
+    transform: translateY(0);
+}
+
+.single-container{
+    cursor: pointer;
+}
+

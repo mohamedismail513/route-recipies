@@ -1,0 +1,10 @@
+.nav-links{
+    background-color: black;
+    color: white;
+    margin-left: -15px;
+}
+
+a{
+    text-decoration: none !important;
+    color: white !important;
+}
